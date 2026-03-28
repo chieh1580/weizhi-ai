@@ -107,9 +107,10 @@ footer { background: #111; padding: 24px 40px; text-align: center; font-size: 12
   .about-grid { grid-template-columns: 1fr !important; gap: 32px !important; text-align: center; }
   .about-photo { max-width: 220px !important; margin: 0 auto !important; aspect-ratio: 1/1 !important; }
   .about-bio { border-left: none !important; padding-left: 0 !important; text-align: left; }
-  .about-stats { flex-wrap: wrap !important; justify-content: center !important; gap: 20px !important; }
-  .about-stats > div:not([style*="width:1px"]) { min-width: 80px; }
-  .about-stats div[style*="font-size:40px"] { font-size: 28px !important; }
+  .about-stats { flex-wrap: wrap !important; justify-content: center !important; gap: 16px !important; }
+  .about-stats > div { min-width: 70px; }
+  .about-stats div[style*="width:1px"] { display: none !important; }
+  .about-stats div[style*="font-size:40px"] { font-size: 26px !important; }
 
   .profile-wrap { grid-template-columns: 1fr !important; gap: 32px; text-align: center; }
   .profile-img { max-width: 220px; margin: 0 auto; display: block; }
